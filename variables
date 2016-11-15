@@ -1,0 +1,3 @@
+#5 second program will not work because x is not assigned in main
+
+#6 the shoes variable wasnt assigned in the outer scope.
