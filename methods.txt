@@ -1,0 +1,11 @@
+#2.1 2
+#2.2 nil
+#2.3 "joe"
+#2.4 "four"
+#2.5 nil
+
+#4 nothing
+
+#5 yipeee!!!
+
+# the calculate method nees 2 arguments
