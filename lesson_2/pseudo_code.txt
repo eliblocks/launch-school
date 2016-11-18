@@ -1,0 +1,57 @@
+1.1 
+
+add method
+  number 1 + number 2
+end method
+
+1.2 
+
+START
+  number1 + number2
+END
+
+2.1
+
+transform array into a string 
+format string
+print string
+
+2.2 
+
+START
+  break array into string
+  format array
+END
+
+3.1
+
+loop through array with index
+  if index is odd
+    add to new array
+  print new array
+  
+3.2 
+
+START
+  SET new_Array
+  WHILE looping through array
+    IF index is odd
+      add to new_array
+    END
+  END
+END
+
+
+
+
+
+
+keyword	meaning
+START	start of the program
+SET	sets a variable we can use for later
+GET	retrieve input from user
+PRINT	displays output to user
+READ	retrieve value from variable
+IF / ELSE IF / ELSE	show conditional branches in logic
+WHILE	show looping logic
+END	end of the program
