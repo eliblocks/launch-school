@@ -32,7 +32,7 @@ def get_nper
 end
 
 def pmt(pv, rate, nper)
-  pmt = pv * (rate / (1 - (1 + rate) ** (-nper)))
+  pv * (rate / (1 - (1 + rate)**(-nper)))
 end
 
 pv = get_pv
