@@ -3,16 +3,14 @@ def prompt(message)
 end
 
 def valid_number?(number)
-  number != 0
+  number.nonzero?
 end
 
 x = ''
 y = ''
 mode = ''
 
-
-  
-def calculate(x,y,mode)
+def calculate(x, y, mode)
   mode = mode.chomp
   if mode == 'divide'
     x = x.chomp.to_f
@@ -62,7 +60,7 @@ loop do
     break if mode
   end
 
-  answer = calculate(x,y,mode)
+  answer = calculate(x, y, mode)
   puts "result: #{answer}"
   puts "Would you like to make another calculation? (Y/N)"
   res = gets.chomp
